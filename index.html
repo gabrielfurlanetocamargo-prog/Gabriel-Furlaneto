@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Gabriel Furlaneto | Clínico Geral</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER / NAV -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <svg viewBox="0 0 100 100" class="logo-svg">
+                    <defs>
+                        <linearGradient id="gradGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0d7a3e"/>
+                            <stop offset="100%" style="stop-color:#2ecc71"/>
+                        </linearGradient>
+                        <linearGradient id="gradSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#bdc3c7"/>
+                            <stop offset="100%" style="stop-color:#ecf0f1"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="46" fill="url(#gradGreen)" stroke="url(#gradSilver)" stroke-width="3"/>
+                    <path d="M50 22 L50 78 M22 50 L78 50" stroke="white" stroke-width="8" stroke-linecap="round"/>
+                    <path d="M35 35 Q50 55 65 35" stroke="url(#gradSilver)" stroke-width="3" fill="none"/>
+                    <path d="M35 65 Q50 45 65 65" stroke="url(#gradSilver)" stroke-width="3" fill="none"/>
+                </svg>
+                <div class="logo-text">
+                    <h1>Dr. Gabriel Furlaneto</h1>
+                    <span>Clínico Geral</span>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#carreira" class="nav-link">Carreira</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span><span></span><span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="tagline">Saúde com excelência</span>
+                <h2>Cuidando de você com <span class="highlight">dedicação</span> e ciência.</h2>
+                <p>Medicina clínica com atendimento humanizado, diagnóstico preciso e acompanhamento contínuo da sua saúde.</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Agendar Consulta</a>
+                    <a href="#servicos" class="btn btn-outline">Ver Serviços</a>
+                </div>
+                <div class="hero-stats">
+                    <div><strong>+10</strong><span>Anos de Experiência</span></div>
+                    <div><strong>+5000</strong><span>Pacientes Atendidos</span></div>
+                    <div><strong>100%</strong><span>Dedicação</span></div>
+                </div>
+            </div>
+
+            <!-- CARTÃO DE VISITA DIGITAL -->
+            <div class="business-card-wrapper">
+                <div class="business-card" id="businessCard">
+                    <div class="card-glow"></div>
+                    <div class="card-header">
+                        <svg viewBox="0 0 100 100" class="card-logo">
+                            <circle cx="50" cy="50" r="46" fill="#0d7a3e" stroke="#bdc3c7" stroke-width="2"/>
+                            <path d="M50 22 L50 78 M22 50 L78 50" stroke="white" stroke-width="8" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h3>Dr. Gabriel Furlaneto</h3>
+                        <p class="card-role">Médico Clínico Geral</p>
+                        <div class="card-divider"></div>
+                        <ul class="card-info">
+                            <li>📞 (11) 99999-9999</li>
+                            <li>✉️ contato@gabrielfurlaneto.com</li>
+                            <li>📍 São Paulo - SP</li>
+                            <li>🩺 CRM 000000</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span>Saúde • Ciência • Cuidado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARREIRA -->
+    <section id="carreira" class="section carreira">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-tag">Trajetória</span>
+                <h2>Minha <span class="highlight">Carreira</span></h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2010 - 2016</span>
+                        <h3>Graduação em Medicina</h3>
+                        <p>Formação pela Universidade de São Paulo (USP), com destaque acadêmico e participação em projetos de pesquisa em saúde pública.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2017 - 2019</span>
+                        <h3>Residência em Clínica Médica</h3>
+                        <p>Especialização em Clínica Médica pelo Hospital das Clínicas, com foco em diagnóstico integrado e tratamento de doenças crônicas.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2019 - 2022</span>
+                        <h3>Atuação Hospitalar</h3>
+                        <p>Médico plantonista em pronto-socorro e enfermaria, com vasta experiência em urgências e emergências clínicas.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2022 - Atual</span>
+                        <h3>Consultório Próprio</h3>
+                        <p>Atendimento clínico personalizado, medicina preventiva e acompanhamento contínuo de pacientes, com foco em qualidade de vida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="section servicos">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-tag">Atendimento</span>
+                <h2>Meus <span class="highlight">Serviços</span></h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">🩺</div>
+                    <h3>Consultas Clínicas</h3>
+                    <p>Avaliação completa do estado de saúde, diagnóstico preciso e plano de tratamento individualizado.</p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">💊</div>
+                    <h3>Medicina Preventiva</h3>
+                    <p>Check-ups periódicos, exames de rotina e orientação para prevenção de doenças.</p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">❤️</div>
+                    <h3>Doenças Crônicas</h3>
+                    <p>Acompanhamento de hipertensão, diabetes, colesterol e outras condições crônicas.</p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">🧪</div>
+                    <h3>Interpretação de Exames</h3>
+                    <p>Análise detalhada de exames laboratoriais e de imagem, com explicação acessível ao paciente.</p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">📋</div>
+                    <h3>Atestados e Laudos</h3>
+                    <p>Emissão de atestados médicos, laudos e documentação clínica com agilidade.</p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">💻</div>
+                    <h3>Telemedicina</h3>
+                    <p>Consultas online para maior comodidade, com a mesma qualidade do atendimento presencial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section contato">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-tag">Fale comigo</span>
+                <h2>Entre em <span class="highlight">Contato</span></h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h3>Informações de Contato</h3>
+                    <p>Agende sua consulta ou tire suas dúvidas. Estou à disposição para cuidar da sua saúde.</p>
+
+                    <ul class="contact-list">
+                        <li>
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <strong>Telefone</strong>
+                                <span>(11) 99999-9999</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <strong>E-mail</strong>
+                                <span>contato@gabrielfurlaneto.com</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <strong>Endereço</strong>
+                                <span>Av. Paulista, 1000 - São Paulo/SP</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">🕐</div>
+                            <div>
+                                <strong>Horário</strong>
+                                <span>Seg a Sex: 8h às 18h</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="nome" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefone" placeholder="Telefone">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                    <p class="form-feedback" id="formFeedback"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <svg viewBox="0 0 100 100" class="logo-svg small">
+                    <circle cx="50" cy="50" r="46" fill="#0d7a3e" stroke="#bdc3c7" stroke-width="3"/>
+                    <path d="M50 22 L50 78 M22 50 L78 50" stroke="white" stroke-width="8" stroke-linecap="round"/>
+                </svg>
+                <span>Dr. Gabriel Furlaneto</span>
+            </div>
+            <p>© <span id="year"></span> Dr. Gabriel Furlaneto — Todos os direitos reservados.</p>
+            <p class="footer-cred">CRM 000000 | Clínico Geral</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
